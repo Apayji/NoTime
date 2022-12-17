@@ -14,7 +14,7 @@
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 9;
 }
 
 .navbar__container {
@@ -371,11 +371,15 @@
   color: #fff;
   border: 1px solid white;
   border-radius: 8px;
-  top: -100%;
+  bottom: 30px;
   left: -150px;
-  transform: translate(0%, -100%);
   z-index: 100;
   width: 300px;
+}
+.tooltip-below {
+  top: 30px;
+  bottom: unset;
+  
 }
 
 .invisible {
