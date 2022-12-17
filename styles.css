@@ -282,7 +282,6 @@
 
 .hero-img {
   width: 50%;
-  overflow: hidden;
 }
 .hero-btn {
   font-size: 1rem;
@@ -339,6 +338,11 @@
   position: absolute;
   border-radius: 50%;
 }
+
+.circle:hover .tooltip {
+  visibility: visible;
+}
+
 .circle1 {
   top: 39%;
   left: 37.5%;
@@ -359,62 +363,21 @@
   top: 14%;
   left: 59%;
 }
-.tooltip1 {
-  position: absolute;
-  padding: 4px;
-  background-color: black;
-  color: #fff;
-  border: 1px solid white;
-  border-radius: 2px;
-  top: -100%;
-  left: -100%;
-  transform: translate(0%, -100%);
-}
-.tooltip2 {
-  position: absolute;
-  padding: 4px;
-  background-color: black;
-  color: #fff;
-  border: 1px solid white;
-  border-radius: 2px;
-  top: -100%;
-  left: -100%;
-  transform: translate(0%, -100%);
-}
-.tooltip3 {
-  position: absolute;
-  padding: 10px;
 
-  background-color: black;
-  color: #fff;
-  border: 1px solid white;
-  border-radius: 10px;
-  top: -100%;
-  left: -100%;
-  transform: translate(0%, -100%);
-}
-.tooltip4 {
+.tooltip {
   position: absolute;
-  padding: 4px;
+  padding: 8px;
   background-color: black;
   color: #fff;
   border: 1px solid white;
-  border-radius: 2px;
+  border-radius: 8px;
   top: -100%;
-  left: -100%;
+  left: -150px;
   transform: translate(0%, -100%);
+  z-index: 100;
+  width: 300px;
 }
-.tooltip5 {
-  position: absolute;
-  padding: 4px;
-  background-color: black;
-  color: #fff;
-  border: 1px solid white;
-  border-radius: 2px;
-  top: -100%;
-  left: -100%;
-  transform: translate(0%, -100%);
-}
+
 .invisible {
   visibility: hidden;
 }
