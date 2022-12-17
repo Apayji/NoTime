@@ -223,6 +223,7 @@
   width: 100%;
 }
 
+
 .main__content h1 {
   font-size: 1.8rem;
   font-family: "Brush Script MT ", "Brush Script MT ", cursive;
@@ -253,7 +254,40 @@
   font-weight: 700;
 }
 
-.main__btn {
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+}
+.hero-text {
+  width: 50%;
+}
+.hero-text h1 {
+  font-size: 2rem;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #0c0003 0%, #3a3a3a 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-left: 50px;
+  margin-top: 100px;
+  font-family: 'Trebuchet MS', Trebuchet, sans-serif;
+}
+
+.hero-img {
+  width: 50%;
+  overflow: hidden;
+}
+.hero-btn {
   font-size: 1rem;
   background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
   padding: 14px 32px;
@@ -265,16 +299,18 @@
   position: relative;
   transition: all 0.35s;
   outline: none;
+  margin-left: 250px;
+  margin-top: 40px;
 }
 
-.main__btn a {
+.hero-btn a {
   position: relative;
   z-index: 2;
   color: #fff;
   text-decoration: none;
 }
 
-.main__btn:after {
+.hero-btn:after {
   position: absolute;
   content: '';
   top: 0;
@@ -286,26 +322,109 @@
   border-radius: 4px;
 }
 
-.main__btn:hover {
+.hero-btn:hover {
   color: #fff;
 }
 
-.main__btn:hover:after {
+.hero-btn:hover:after {
   width: 100%;
 }
 
-.main__img--container {
- 
-  margin-top: 20px;
-  text-align: center;
+.map-container {
+  position: relative;
 }
 
-#main__img {
+.circle {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid white;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+  top: 470px;
+  left: 315px;
+}
+.circle2 {
+  top: 350px;
+  left: 105px;
+}
+.circle3 {
+  top: 450px;
+  left: 630px;
+}
+.circle4 {
+  top: 200px;
+  left: 630px;
+}
+.circle5 {
+  top: 145px;
+  left: 480px;
+}
+.tooltip1 {
+  position: absolute;
+  padding: 4px;
+  background-color: black;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 2px;
+  top: -100%;
+  left: -100%;
+  transform: translate(0%, -100%);
+}
+.tooltip2 {
+  position: absolute;
+  padding: 4px;
+  background-color: black;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 2px;
+  top: -100%;
+  left: -100%;
+  transform: translate(0%, -100%);
+}
+.tooltip3 {
+  position: absolute;
+  padding: 10px;
   
-  height: 100%;
-  width: 100%;
-  margin-left: 100px;
+  background-color: black;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  top: -100%;
+  left: -100%;
+  transform: translate(0%, -100%);
 }
+.tooltip4 {
+  position: absolute;
+  padding: 4px;
+  background-color: black;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 2px;
+  top: -100%;
+  left: -100%;
+  transform: translate(0%, -100%);
+}
+.tooltip5 {
+  position: absolute;
+  padding: 4px;
+  background-color: black;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 2px;
+  top: -100%;
+  left: -100%;
+  transform: translate(0%, -100%);
+}
+.invisible {
+  visibility: hidden;
+}
+
+
+
+
 
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {

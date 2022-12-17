@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-   
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Men in Black</title>
@@ -10,7 +9,8 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"dy
+      crossorigin="anonymous"
+      dy
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
@@ -21,7 +21,15 @@
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="/" id="navbar__logo" style="margin-left: -100px;"><img src="/images/Save the earth.png" alt="Logo" width="80" height="60" style="vertical-align:bottom">EcoKaz</a>
+        <a href="/" id="navbar__logo" style="margin-left: -100px"
+          ><img
+            src="/images/Save the earth.png"
+            alt="Logo"
+            width="80"
+            height="60"
+            style="vertical-align: bottom"
+          />EcoKaz</a
+        >
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>
@@ -34,7 +42,7 @@
             <a href="/tech.html" class="navbar__links">Tech</a>
           </li>
           <li class="navbar__item">
-           <a href="/" class="navbar__links">Products</a>
+            <a href="/" class="navbar__links">Products</a>
           </li>
           <li class="navbar__btn"><a href="/" class="button">Sign Up</a></li>
         </ul>
@@ -42,53 +50,43 @@
     </nav>
 
     <!-- Hero Section -->
-    <div class="main">
-      <div class="main__container">
-        <div class="main__content">
-          <h5></h5>
-          <h1 style="margin-left: -50px;">EcoKaz - это первое сообщество, где люди могут поделиться экопроблемами своих 
-            городов и районов.
-            </h1>
-            <style>
-              .tooltip {
-                position: relative;
-                display: inline-block;
-               
-              }
-              
-              .tooltip .tooltiptext {
-                visibility: hidden;
-                width: 120px;
-                background-color: black;
-                color: #fff;
-                text-align: center;
-                border-radius: 6px;
-                padding: 5px 0;
-                
-                /* Position the tooltip */
-                position: absolute;
-                z-index: 1;
-                bottom: 100%;
-                left: 50%;
-                margin-left: -60px;
-              }
-              
-              .tooltip:hover .tooltiptext {
-                visibility: visible;
-              }
-              </style>
-            <div class="tooltip"><h1 style="margin-left: 500px;">&#9711;</h1>
-              <span class="tooltiptext">Tooltip text</span>
-            </div>
-          
-          <p>See what makes up different.</p>
-          <button class="main__btn"><a href="#">Get Started</a></button>
+    <body>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>
+            EcoKaz - это первое сообщество, где люди могут поделиться
+            экопроблемами своих городов и районов.
+          </h1>
+          <button class="hero-btn"><a href="#">Get Started</a></button>
         </div>
-        <div class="main__img--container">
-          <img id="main__img" src="images/Map of kazakhstan 1.PNG"/>
+        <div class="hero-img">
+          <div class="map-container">
+            <span class="circle circle1">
+              <div class="tooltip1 invisible">tooltip1</div>
+            </span>
+            <span class="circle circle2">
+              <div class="tooltip2 invisible">tooltip2</div>
+            </span>
+            <span class="circle circle3">
+              <div class="tooltip3 invisible">
+                В 2019 году Алматы вошел в число 100 самых опасных для экологии
+                городов мира, заняв 95 место. По данным РГП «Казгидромет»,
+                атмосферный воздух в Алматы в целом характеризуется высоким
+                уровнем загрязнения. Индекс загрязнения атмосферы составляет 7
+                (высокий уровень). Стандартный индекс равен 9 (высокий).
+              </div>
+            </span>
+            <span class="circle circle4">
+              <div class="tooltip4 invisible">tooltip4</div>
+            </span>
+            <span class="circle circle5">
+              <div class="tooltip5 invisible">tooltip5</div>
+            </span>
+            <img src="./images/map-kazakhstan.svg" alt="map" />
+          </div>
         </div>
       </div>
-    </div>
+    </body>
 
     <!-- Services Section -->
     <div class="services">
@@ -159,12 +157,7 @@
             >
               <i class="fab fa-instagram"></i>
             </a>
-            <a
-              class="social__icon--link"
-              href="//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
-              target="_blank"
-              aria-label="Youtube"
-            >
+            <a class="social__icon--link" target="_blank" aria-label="Youtube">
               <i class="fab fa-youtube"></i>
             </a>
             <a
