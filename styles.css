@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .navbar {
@@ -45,7 +45,7 @@
   font-size: 2rem;
 }
 
- .fa-gem {
+.fa-gem {
   margin-right: 1rem;
 }
 
@@ -223,7 +223,6 @@
   width: 100%;
 }
 
-
 .main__content h1 {
   font-size: 1.8rem;
   font-family: "Brush Script MT ", "Brush Script MT ", cursive;
@@ -254,8 +253,6 @@
   font-weight: 700;
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -280,7 +277,7 @@
   -moz-text-fill-color: transparent;
   margin-left: 50px;
   margin-top: 100px;
-  font-family: 'Trebuchet MS', Trebuchet, sans-serif;
+  font-family: "Trebuchet MS", Trebuchet, sans-serif;
 }
 
 .hero-img {
@@ -312,7 +309,7 @@
 
 .hero-btn:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 0;
@@ -335,32 +332,32 @@
 }
 
 .circle {
-  width: 2rem;
-  height: 2rem;
-  border: 2px solid white;
+  width: 2.5%;
+  height: 2.5%;
+  background: white;
   display: block;
   position: absolute;
   border-radius: 50%;
 }
 .circle1 {
-  top: 470px;
-  left: 315px;
+  top: 39%;
+  left: 37.5%;
 }
 .circle2 {
-  top: 350px;
-  left: 105px;
+  top: 27%;
+  left: 12%;
 }
 .circle3 {
-  top: 450px;
-  left: 630px;
+  top: 42%;
+  left: 75%;
 }
 .circle4 {
-  top: 200px;
-  left: 630px;
+  top: 17%;
+  left: 78%;
 }
 .circle5 {
-  top: 145px;
-  left: 480px;
+  top: 14%;
+  left: 59%;
 }
 .tooltip1 {
   position: absolute;
@@ -387,7 +384,7 @@
 .tooltip3 {
   position: absolute;
   padding: 10px;
-  
+
   background-color: black;
   color: #fff;
   border: 1px solid white;
@@ -421,10 +418,6 @@
 .invisible {
   visibility: hidden;
 }
-
-
-
-
 
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
@@ -525,7 +518,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/images/pic3.jpg');
+    url("/images/pic3.jpg");
   background-size: cover;
   position: relative;
   color: #fff;
@@ -541,7 +534,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.9) 100%
     ),
-    url('/images/pic4.jpg');
+    url("/images/pic4.jpg");
 }
 
 .services__card h2 {
